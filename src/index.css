@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+}
+.title-header {
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+}
+.App {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  top: 1%;
+  bottom: 1%;
+}
+
+#board-cell {
+  background-color: wheat;
+}
+#start-cell {
+  background-color: transparent;
+}
+#end-cell {
+  background-color: rgb(4, 255, 0);
+}
+#wall-cell {
+  background-color: rgb(80, 80, 80)
+}
+#path-cell {
+background-color: rgb(255, 255, 0);
+}
+#explored-cell {
+background-color: rgb(100, 157, 176);
+}
+#ahead-cell {
+background-color: rgb(0, 150, 0);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(50, auto);
+  grid-template-rows: repeat(20, auto);
+  gap: 1px;
+  /* background-color: var(--BORDER-COLOR);
+  border: 1px solid var(--BORDER-COLOR); */
+}
+
+.grid-container > div {
+  aspect-ratio: 1;
+}
+
+.menu-button-end,
+.menu-button-start,
+.menu-button-wall,
+.menu-button-empty,
+.menu-button-bomb,
+.menu-button-checkpoint
+{
+  background-color: chocolate;
+  padding: 9px;
+  margin: 4px;
+  border-radius: 3px;
+  color: #333;
+  font-weight: 700;
+}
+
+.start-algo {
+  background-color: brown;
+  color: lightyellow;
+  padding: 9px;
+  margin: 4px;
+  border-radius: 3px;
+  font-weight: 700;
+
+}
+
+.gen-maze {
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 9px;
+  margin: 4px;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.clear-the-board {
+  background-color: darkgreen;
+  color: orange;
+  padding: 9px;
+  margin: 4px;
+  border-radius: 3px;
+  font-weight: 700;
+}
