@@ -49,7 +49,7 @@ export default function Menu({
         }}
         className="start-algo"
       >
-        Start Algo
+        Start Visualizing
       </button>
     </div>
   );
