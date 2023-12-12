@@ -5,5 +5,5 @@ const isProduction = process.env.MYNODE_ENV === 'production';
 export default defineConfig({
   plugins: [react()],
   // base: "/pathfindingvisualizer/",
-  base: isProduction ? '/' : '/pathfindingvisualizer/',
+  base: isProduction ? '/pathfindingvisualizer/' : '/',
 })
