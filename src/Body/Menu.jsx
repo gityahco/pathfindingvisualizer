@@ -6,7 +6,7 @@ const menuOptions = [
   { label: "Wall", value: "wall" },
   { label: "Empty", value: "empty" },
   // { label: "Bomb", value: "bomb" },
-  // { label: "Checkpoint", value: "checkpoint" },
+  { label: "Checkpoint", value: "checkpoint" },
 ];
 
 export default function Menu({
